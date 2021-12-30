@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Architects+Daughter&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+*{
+    font-family: 'Sora', sans-serif;
+    transition: 0.6s;
+}
+.box{
+    border-radius: 100px;
+    box-shadow: 0 0 15px #999999;
+    background-color: white;
+    margin: 30px 13px;
+    height: 300px;
+    width: 229px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+  
+}
+.box img,h3,p{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box img{
+    border-radius: 100px;
+    border: 2px solid #f5f5f5;
+}
+.box h3{
+    color: #023047;
+    font-style: italic;
+}
+.box p{
+    font-size: 14px;
+}
+.box:hover{
+    box-shadow: 0 0 15px #023047;
+    background-color: #8ECAE6;
+}

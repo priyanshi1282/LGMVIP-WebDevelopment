@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Architects+Daughter&family=Sora:wght@100;200;300;400&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+*{
+    text-decoration: none;
+    transition: 0.6s;
+    font-family: 'Sora', sans-serif;
+}
+footer{
+    padding: 7px 0px;
+    color: #F5F5F5;
+    margin-bottom: 0px;
+    height: 70px;
+    background-color: #023047;
+    text-align: center;
+}
+#p1{
+    font-family: cursive;
+    font-size: 120%;
+    margin: 7px 0;
+}
+#credit{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFB703;
+}
+.social a{
+    cursor: pointer;
+    margin: 0 20px;
+    font-size: 17px;
+    
+}
+.social a:link{
+    color: #66BBCC;
+}
+.social a:visited{
+    color: #66BBCC;
+}
+.social a:hover{
+    color: #F5F5F5;
+}
